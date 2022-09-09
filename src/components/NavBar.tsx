@@ -32,6 +32,16 @@ const NavBar = () => {
                 Search
               </NavLink>
             </li>
+            <li>
+              <NavLink className={getClassNames} to={'counter-redux'}>
+                Redux Counter
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={getClassNames} to={'cities-redux'}>
+                Cities
+              </NavLink>
+            </li>
             {/* {!connected ? 
               <li>
                 <NavLink className={getClassNames} to={'login'}>
